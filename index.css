@@ -1,55 +1,63 @@
-    * {
-        position: relative;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    
-    @font-face {
-        font-family: NIAGENG;
-        src: url("./Fonts/NIAGENG.TTF")
-    }
-    
-    @font-face {
-        font-family: Swiss;
-        src: url("./Fonts/Swiss721BT-Light.otf")
-    }
-    
-    .container-fluid {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    
-    .top {
-        background-color: white;
-        height: 60vh;
-        z-index: 0;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    
-    .bottom {
-        background-color: #ffa042;
-        height: 40vh;
-        z-index: 0;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    
-    .start {
-        font-family: Swiss;
-        font-size: 4vw;
-        color: white;
-        margin-top: 13vh;
-        /* margin-left: 35vw; */
-        align-items: center;
-    }
-    
-    .leftMan {
-        z-index: 1;
-        float: left;
-    }
-    
-    .rightMan {
-        z-index: 1;
-        float: right;
-    }
+ * {
+     position: relative;
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ 
+ @font-face {
+     font-family: NIAGENG;
+     src: url("./Fonts/NIAGENG.TTF")
+ }
+ 
+ @font-face {
+     font-family: Swiss;
+     src: url("./Fonts/Swiss721BT-Light.otf")
+ }
+ 
+ .container-fluid {
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ 
+ .top {
+     background-color: white;
+     height: 60vh;
+     z-index: 0;
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ 
+ .bottom {
+     background-color: #ffa042;
+     height: 40vh;
+     z-index: 0;
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ 
+ .start {
+     font-family: Swiss;
+     font-size: 4vw;
+     color: white;
+     margin-top: 13vh;
+     /* margin-left: 35vw; */
+     align-items: center;
+ }
+ 
+ .leftMan {
+     z-index: 1;
+     float: left;
+     height: 60vh;
+ }
+ 
+ .rightMan {
+     z-index: 1;
+     float: right;
+     height: 60vh;
+ }
+ 
+ .mainPage {
+     height: 100vh;
+     width: 100vw;
+     background-color: #2F4F4F;
+ }
